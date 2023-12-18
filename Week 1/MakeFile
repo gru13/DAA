@@ -1,0 +1,4 @@
+cc = gcc
+
+factorial: 
+	{cc} factorial.c -o factorial
