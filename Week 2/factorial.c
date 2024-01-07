@@ -21,6 +21,7 @@ int Factorial_by_recur(int num){
         return num*Factorial_by_recur(num-1);
     }
 }
+
 int Factorial_by_lopin(int num){
    if(num == 0){
         return 1;

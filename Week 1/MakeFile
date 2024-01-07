@@ -1,4 +1,6 @@
-cc = gcc
-
-factorial: 
-	{cc} factorial.c -o factorial
+CC = gcc
+ 
+# linearSearch.o: linearSearch.c
+# 	$(CC) -c linearSearch.c
+hello:
+	echo "hello"

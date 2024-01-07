@@ -1,6 +1,0 @@
-CC = gcc
- 
-# linearSearch.o: linearSearch.c
-# 	$(CC) -c linearSearch.c
-hello:
-	echo "hello"
