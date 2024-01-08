@@ -40,7 +40,7 @@ void swap(int* a, int* b){
 
 int quickSort(int* arr, int low, int high){
     if(low < high){
-        pi = partition(arr, low, high);
+        int pi = partition(arr, low, high);
         quickSort(arr, low, pi-1);
         quickSort(arr, pi+1, high);
     }
@@ -54,5 +54,5 @@ int partition(int *arr, int low, int high){
     while (lft < ryt){
         
     }
-    
+
 }
