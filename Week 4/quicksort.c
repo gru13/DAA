@@ -2,6 +2,7 @@
 #include<stdlib.h>
 
 int quickSort(int* arr, int low, int high);
+int partition(int* arr, int low, int high);
 void printArray(int* arr, int len);
 void swap(int* a, int* b);
 
@@ -38,6 +39,15 @@ void swap(int* a, int* b){
 }
 
 int quickSort(int* arr, int low, int high){
+    if(low < high){
+        pi = partition(arr, low, high);
+        quickSort(arr, low, pi-1);
+        quickSort(arr, pi+1, high);
+    }
+
+    return 0;
+}
+int partition(int *arr, int low, int high){
     int pivot = arr[high];
     int lft = low;
     int ryt = high;
@@ -45,6 +55,4 @@ int quickSort(int* arr, int low, int high){
         
     }
     
-
-    return 0;
 }
