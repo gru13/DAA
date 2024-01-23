@@ -1,4 +1,9 @@
-Certainly! Here are the algorithms without line numbers:
+## 22AIE212 ##
+## DAA ##
+## ASSIGNMENT 1 ##
+
+### Name : Guruprasath M R
+### Rollno : CH.EN.U4AIE22015
 
 ### 1. Check Odd or Even:
 
